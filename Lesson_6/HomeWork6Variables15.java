@@ -24,7 +24,7 @@ public class HomeWork6Variables15 {
 	
 	} else {
 
-		System.out.println(number+ " " + "este numer impar");
+		System.out.println(number+ " " + "este numar impar");
 
 		}
 
