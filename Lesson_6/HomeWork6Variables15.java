@@ -33,7 +33,7 @@ public class HomeWork6Variables15 {
 	if (number > 127) {
 			System.out.println(number + " " + "numarul nu se incadreaza in byte");
 	
-	} else if (number < -127) {
+	} else if (number < -128) {
 			System.out.println(number + " " + "numeral nu se incadreaza in byte");
 
 	} else { 	
