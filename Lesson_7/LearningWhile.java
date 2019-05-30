@@ -11,7 +11,7 @@ public class LearningWhile {
 		
 	}
 
-	System.out.println("+ Punctul 2.1");	
+	System.out.println("+ Punctul 2.1 / Numerele pare de la 0 la 50");	
 
 
 	int i;
@@ -28,23 +28,42 @@ public class LearningWhile {
 	i++;
 	}
 
-	System.out.println("+ Punctul 2.1");
+	System.out.println("+ Punctul 2.2 / Numerele impart de la 50 la 100");
 
 	
-	// int i1;
+
+
+	int x = 50;
 	
-	// while ((50 <= i1)||(i1 <= 100)) {
-	// if(i1 % 2 ==0) {    	
-	//	System.out.println("Numarul par este " + i1);
+	while (x <=100) {
+
+	if (x % 2 == 1) {
+   	
+		System.out.println("Numarul impar este " + x);
 	    
-  	// } else {
-	// }
-	//i1++;
-	// }
-
-	System.out.println("Numerele impare nu se afiseaza! ");
-		
+	}
 	
+	x++;
+	}
+
+	System.out.println("+ Punctul 2.3 / Numerele impart de la 100 la 50");
+
+	
+
+
+	int x1 = 100;
+	
+	while (x1 >=50) {
+
+	if (x1 % 2 == 1) {
+   	
+		System.out.println("Numarul impar este " + x1);
+	    
+	}
+	
+	x1--;
+	}
+
 
 
   }
