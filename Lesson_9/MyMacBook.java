@@ -1,39 +1,31 @@
 public class MyMacBook {
 
-    //obiect, capacitate, functii
-
-    String name;
-    String processor;
-    String memory;
-    int storage;
-    
-    // text
-    
-    public void description() {
+    public void name(String denumire){
         
-        System.out.println("More power. More performance. More pro.");
+        System.out.println(denumire);
         
     }
+    
+    public void laptop(String putere){
+        
+        System.out.println("Procesorul: " + putere);
+    }
+    
+    public void memory(int num){
+        
+        System.out.println("Memoria operativa: " + num + "GB");
+    }
+    
     
     public static void main(String[] args) {
         
         MyMacBook emp = new MyMacBook();
-        emp.name = "MacBook Pro ";
-        emp.processor = "3.1 GHz Intel Core i7 ";
-        emp.memory = "512GB SSD ";
-        emp.storage = 16;
-        System.out.print(emp.name);
-        System.out.print(emp.processor);
-        System.out.print(emp.memory);
-        System.out.print(emp.storage);
-        System.out.println(" GB");
-        emp.description();
-                           
+        emp.name("MacBook Pro");
+        emp.laptop("3.1 GHz Intel Core i7");
+        emp.memory(16);
+        
         
     }
-    
-  
-    
     
 
 }

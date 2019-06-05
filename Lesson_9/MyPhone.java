@@ -1,37 +1,29 @@
 public class MyPhone {
     
-    //obiect, capacitate, functii
-    
-    String name;
-    String processor;
-    float display;
-    String camera;
-    int storage;
-    
-    // text
-    
-    public void phone() {
+    public void name(String denumire){
         
-        System.out.println("This is iPhone 7");
+        System.out.println(denumire);
         
     }
+    
+    public void chip(String phone){
+        
+        System.out.println("Procesorul: " + phone);
+    }
+    
+    public void storage(int num){
+        
+        System.out.println("Memoria: " + num + " GB");
+    }
+    
     
     public static void main(String[] args) {
         
         MyPhone emp = new MyPhone();
-        emp.name = "iPhone 7 ";
-        emp.processor = "A10 Fusion chip ";
-        emp.display = 4.7F;
-        emp.camera = "12MP camera ";
-        emp.storage = 128;
-        System.out.print(emp.name);
-        System.out.print(emp.processor);
-        System.out.print(emp.display);
-        System.out.print(" inch (diagonal) widescreen LCD ");
-        System.out.print(emp.camera);
-        System.out.print(emp.storage);
-        System.out.println(" GB");
-        emp.phone();
+        emp.name("iPhone 7");
+        emp.chip("A10 Fusion chip");
+        emp.storage(128);
+   
         
         
     }

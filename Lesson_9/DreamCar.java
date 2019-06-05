@@ -1,37 +1,34 @@
 public class DreamCar {
     
-    // nume, model, specificatia, culoarea
-    
-    String name;
-    String model;
-    String fuel;
-    String color;
-    int power;
-    
-    public void car(){
+    public void car(String denumire){
         
-        System.out.println("THE SUV BUILT FOR CITY LIFE");
+        System.out.println(denumire);
+        
     }
+    
+    public void model(String modelul){
+        
+        System.out.println(modelul);
+    }
+    
+    public void power(int num){
+        
+        System.out.println(num + " Hp / cai putere");
+    }
+    
+    public void color(String culoare){
+        
+        System.out.println(culoare);
+    }
+    
     
     public static void main(String[] args){
        
         DreamCar emp = new DreamCar();
-        emp.name = "Volvo ";
-        emp.model = "XC40";
-        emp.fuel = " Petrol ";
-        emp.color = "Black";
-        emp.power = 190;
-        System.out.print(emp.name);
-        System.out.print("Model: ");
-        System.out.print(emp.model);
-        System.out.print(" Tipul de combustibil: ");
-        System.out.print(emp.fuel);
-        System.out.print(" Culoarea: ");
-        System.out.print(emp.color);
-        System.out.print(" Caii Putere: ");
-        System.out.print(emp.power);
-        System.out.print(" Hp ");
-        emp.car();
+        emp.car("Volvo");
+        emp.model("XC40");
+        emp.power(190);
+        emp.color("Black");
         
         
     }
